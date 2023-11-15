@@ -1,0 +1,85 @@
+cocktail:
+  - name: Margarita
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: thick_bottom_cup
+    composition:
+      - blanco tequila,59.14
+      - orange liqueur,14.785
+      - lime juice,29.57
+      - agave syrup,14.785
+  - name: Mojito
+    ice_cube: 1
+    ice_cube_cup: 1
+    cup: right_angle_cup
+    composition:
+      - white rum,35
+      - sugar,15
+      - mint juice,1
+      - soda water,10
+      - lime juice,30
+  - name: Gin & Tonic
+    ice_cube: 1
+    ice_cube_cup: 1
+    cup: right_angle_cup
+    composition:
+      - Gin,59.14
+      - tonic water,118.28
+  - name: Cosmopolitan cocktail
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: triangle_angle_cup
+    composition:
+      - lemon vodka,45
+      - lime juice,10
+      - cranberry juice,30
+  - name: Old fashioned
+    ice_cube: 1
+    ice_cube_cup: 1
+    cup: thick_bottom_cup
+    composition:
+      - whiskey,59.14
+      - Angostura bitters,0.15
+      - sugar,7.5
+      - water,5
+  - name: Martini
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: triangle_angle_cup
+    composition:
+      - Gin,60
+      - dry vermouth,15
+  - name: Mai Tai
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: thick_bottom_cup
+    composition:
+      - white rum,162.6
+      - dark rum,14.8
+      - orange curaçao,22
+      - lime juice,22
+      - Orgeat,14.8
+  - name: Highball
+    ice_cube: 1
+    ice_cube_cup: 1
+    cup: right_angle_cup
+    composition:
+      - whiskey,59.14
+      - soda water,118
+  - name: Manhattan Whiskey
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: triangle_angle_cup
+    composition:
+      - whiskey,59.14
+      - sweet vermouth,29.57
+      - aromatic bitters,0.15
+  - name: Paper Plane
+    ice_cube: 1
+    ice_cube_cup: 0
+    cup: thick_bottom_cup
+    composition:
+      - Bourbon,22.5
+      - Aperol,22.5
+      - Amaro Nonino,22.5
+      - Lemon Juice,22.5

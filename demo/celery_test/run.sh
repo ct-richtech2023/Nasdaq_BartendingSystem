@@ -1,0 +1,1 @@
+python3 run.py main:app --reload

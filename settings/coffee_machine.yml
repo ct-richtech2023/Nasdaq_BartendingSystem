@@ -1,0 +1,221 @@
+# if indoor: use glass cup; if outdoor: use disposable cup
+cup_env: indoor
+
+adam:
+  sn: abcdef
+  ip:
+    left: 192.168.2.226
+    right: 192.168.2.240
+  default_speed:
+    arm: 400
+    gripper: 15000
+  gripper:
+    open: 850
+  arduino: 
+    no1: '/dev/ttyACM0'
+    no2: '/dev/ttyACM1'
+
+audio:
+  lat: 32
+  lon: 118.5
+  timezone: 'America/Los_Angeles'
+
+dance:
+  count: 2
+
+sound:
+  AUDIODEV: 1,0
+
+ice_maker:
+  - pose:
+      x: 60
+      y: -1130
+      z: 300
+      roll: 0
+      pitch: 90
+      yaw: 0
+
+coffee_machine:
+  pose:
+    x: 361 #385
+    y: 786 #775
+    z: 275 #250
+
+
+foam_machine:
+  pose:
+    x: 425 #417
+    y: -178 #-183
+    z: 0
+
+americano:
+  pose:
+    x: 80
+    y: 990 #985
+    z: 85 #60
+
+bucket:
+  - name: hot_coffee
+    pose:
+      x: 80
+      y: 990
+      z: 85
+  - name: tazo
+    pose:
+      x: 50
+      y: 700
+      z: 250
+
+shaker: # 奶泡瓶
+  gripper: 200
+  high: 200
+  clamp: 100
+  capacity: 1800
+  collision_sensitivity: 2
+  pose:
+    # the place where take shaker
+    take:
+      x: 501 #470
+      y: -604 #-620
+      z: 125
+    # the place where clean shaker
+    clean:
+      x: 540 #580
+      y: -10
+      z: 200
+
+gpio:
+  tap: # 龙头液体配置
+    pose:
+      x: 615 #630
+      y: -10 #0
+      z: 160
+
+put: # the place where put cup
+  - name: hot_cup
+    pose:
+      x: 690 #800
+      y: 460 #350
+      z: 210 #185
+  - name: cold_cup
+    pose:
+      x: 690 #800
+      y: -350
+      z: 185 #175 #165 #150
+
+beer_b:
+  pose:
+    x: 459.7 #800
+    y: -45.3 #350
+    z: 162 #185
+    roll: 0
+    pitch: 90
+    yaw: 0
+
+beer_a:
+  pose:
+    x: 455.7 #800
+    y: -48.3 #350
+    z: 91 #185
+    roll: 0
+    pitch: 90
+    yaw: 0
+
+beer_b:
+  pose:
+    x: 454.8 #800
+    y: 85.7 #350
+    z: 95 #185
+    roll: 0
+    pitch: 90
+    yaw: 0
+
+left_beer_a:
+  pose:
+    x: 462.5
+    y: -60.7
+    z: 90
+    roll: 0
+    pitch: 90
+    yaw: 0
+
+left_beer_b:
+  pose:
+    x: 459
+    y: 69
+    z: 91
+    roll: 0
+    pitch: 90
+    yaw: 0
+
+put_left:
+  pose:
+    x: 700 #800
+    y: 450
+    z: 185 #185
+    
+put_right:
+  pose:
+    x: 700 #800
+    y: -450
+    z: 185 #175 #165 #150
+
+get: # 取杯子的位置配置
+  - name: cold_cup # 杯子名称
+    gripper: 320 # 杯口位置夹爪张开大小
+    high: 100 #  杯子高度
+    clamp: 100
+    capacity: 230 # 杯子容量
+    percent: 0.83  # 夹取杯子的比例（从杯底往上）
+    weight: 0.5
+    collision_sensitivity: 0
+    pose: #  杯子位置
+      x: -108 #-105
+      y: -923 #-919
+      z: 105
+      roll: 0
+  - name: hot_cup
+    gripper: 320
+    high: 100
+    clamp: 380 #360
+    capacity: 230
+    weight: 0.5
+    percent: 0.83
+    collision_sensitivity: 0
+    pose:
+      x: -117 #-100
+      y: 904 #913
+      z: 70 #100 #70
+  - name: right_cup # 杯子名称
+    gripper: 320 # 杯口位置夹爪张开大小
+    high: 100 #  杯子高度
+    clamp: 240
+    capacity: 230 # 杯子容量
+    percent: 0.83  # 夹取杯子的比例（从杯底往上）
+    weight: 0.5
+    collision_sensitivity: 0
+    pose: #  杯子位置
+      x: 356.3 #-105
+      y: -801.4 #-919
+      z: 69 #138.3
+      roll: 0
+  - name: left_cup
+    gripper: 320
+    high: 100
+    clamp: 200 #360
+    capacity: 230
+    weight: 0.5
+    percent: 0.83
+    collision_sensitivity: 0
+    pose:
+      x: 365 #-100
+      y: 820 #913
+      z: 68 #128.3 #100 #70
+
+task_option:
+  ice_type:
+    no_ice: 0  # 不要冰比例系数
+    light: 1  # 少冰比例系数
+    more: 1.5  # 多冰比例系数
+  sweetness_type:
+    extra: 1.2  # 多糖比例系数

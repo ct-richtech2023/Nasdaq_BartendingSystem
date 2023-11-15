@@ -1,0 +1,15 @@
+# 在当前路径执行 docker-compose up -d
+version: "3.7"
+services:
+  vlc:
+    restart: unless-stopped
+    image: m986883511/ubuntu:vlc
+    devices:
+      - /dev
+    dns: 114.114.114.114
+    ports:
+      - 10022:22
+    container_name: vlc
+    build:
+      context: .
+      dockerfile: vlc.Dockerfile

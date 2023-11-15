@@ -1,0 +1,370 @@
+2023-11-15 03:07:29.956 | INFO     | __main__:<module>:40 - center is starting, bind on 0.0.0.0:9000, log_path is /var/log/richtech/center.log
+2023-11-15 03:07:29.996 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7fdbd98dd190>
+2023-11-15 03:07:29.996 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7fdbd98dd190>
+2023-11-15 03:08:57.434 | INFO     | __main__:<module>:40 - center is starting, bind on 0.0.0.0:9000, log_path is /var/log/richtech/center.log
+2023-11-15 03:08:57.468 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f54656f6130>
+2023-11-15 03:08:57.469 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f54656f6130>
+2023-11-15 05:48:42.994 | INFO     | __main__:<module>:40 - center is starting, bind on 0.0.0.0:9000, log_path is /var/log/richtech/center.log
+2023-11-15 05:48:43.018 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f1f67add3a0>
+2023-11-15 05:48:43.018 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f1f67add3a0>
+2023-11-15 06:07:52.230 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0001
+2023-11-15 06:07:52.234 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=da792073-b172-3add-bcf2-7aa374ab2f1b
+2023-11-15 06:07:52.299 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('da792073-b172-3add-bcf2-7aa374ab2f1b'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 7, 51, 580013)}, code=200, result=b'"make formula=red wine, task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b"'
+2023-11-15 06:07:52.307 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0001
+2023-11-15 06:09:26.112 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.121 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.127 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.138 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.148 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:09:26.154 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.157 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.168 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.173 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:09:26.178 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.179 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.190 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.194 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:09:26.200 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.200 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.459 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:09:26.503 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.512 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:09:26.521 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:09:26.525 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=da792073-b172-3add-bcf2-7aa374ab2f1b status=completed
+2023-11-15 06:10:09.934 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0002
+2023-11-15 06:10:09.939 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=d9124bbc-a1aa-32e2-aada-453c281ebbca
+2023-11-15 06:10:09.980 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('d9124bbc-a1aa-32e2-aada-453c281ebbca'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 10, 9, 716783)}, code=200, result=b'"make formula=red wine, task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca"'
+2023-11-15 06:10:09.986 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0002
+2023-11-15 06:10:13.747 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:13.777 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:13.791 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:13.818 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.830 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:10:13.841 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.845 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:13.859 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.864 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:10:13.870 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.871 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:13.882 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.888 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:10:13.893 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up3.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:13.894 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:14.027 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:10:14.069 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-h-j-f, your red wine is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:14.077 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:10:14.086 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up3.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 06:10:14.090 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d9124bbc-a1aa-32e2-aada-453c281ebbca status=completed
+2023-11-15 06:13:29.896 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0003
+2023-11-15 06:13:29.902 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=702dd539-4ff2-36eb-8a30-c029a8afe230
+2023-11-15 06:13:29.989 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('702dd539-4ff2-36eb-8a30-c029a8afe230'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 13, 29, 765732)}, code=200, result=b'"make formula=red wine, task_uuid=702dd539-4ff2-36eb-8a30-c029a8afe230"'
+2023-11-15 06:13:29.994 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0003
+2023-11-15 06:13:33.461 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=702dd539-4ff2-36eb-8a30-c029a8afe230 status=completed
+2023-11-15 06:13:33.466 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=702dd539-4ff2-36eb-8a30-c029a8afe230 status=completed
+2023-11-15 06:13:33.480 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:13:33.484 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=702dd539-4ff2-36eb-8a30-c029a8afe230 status=completed
+2023-11-15 06:13:33.494 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:13:33.496 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=702dd539-4ff2-36eb-8a30-c029a8afe230 status=completed
+2023-11-15 06:25:18.380 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0004
+2023-11-15 06:25:18.386 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=51c593a2-d751-33cc-9a06-ea7cbab49de2
+2023-11-15 06:25:18.441 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('51c593a2-d751-33cc-9a06-ea7cbab49de2'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 25, 17, 476409)}, code=200, result=b'"make formula=red wine, task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2"'
+2023-11-15 06:25:18.444 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0004
+2023-11-15 06:27:30.968 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:30.979 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:30.994 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:27:30.997 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:31.007 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:27:31.009 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:31.014 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:31.028 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:27:31.032 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:31.233 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:27:31.246 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:27:31.255 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=51c593a2-d751-33cc-9a06-ea7cbab49de2 status=completed
+2023-11-15 06:34:58.005 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0005
+2023-11-15 06:34:58.008 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=16c293ea-1e96-3d65-b00a-26e2e3f2f585
+2023-11-15 06:34:58.071 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('16c293ea-1e96-3d65-b00a-26e2e3f2f585'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 34, 57, 509962)}, code=200, result=b'"make formula=red wine, task_uuid=16c293ea-1e96-3d65-b00a-26e2e3f2f585"'
+2023-11-15 06:34:58.075 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0005
+2023-11-15 06:35:02.444 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=16c293ea-1e96-3d65-b00a-26e2e3f2f585 status=completed
+2023-11-15 06:35:02.462 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:35:02.467 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=16c293ea-1e96-3d65-b00a-26e2e3f2f585 status=completed
+2023-11-15 06:36:54.636 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0006
+2023-11-15 06:36:54.641 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=260db371-cb35-3baa-87e1-3bdd768040a2
+2023-11-15 06:36:54.762 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('260db371-cb35-3baa-87e1-3bdd768040a2'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 36, 54, 526093)}, code=200, result=b'"make formula=red wine, task_uuid=260db371-cb35-3baa-87e1-3bdd768040a2"'
+2023-11-15 06:36:54.772 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0006
+2023-11-15 06:36:58.673 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=260db371-cb35-3baa-87e1-3bdd768040a2 status=completed
+2023-11-15 06:37:14.881 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0007
+2023-11-15 06:37:14.882 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=fd2a07df-15b1-34c1-b299-f67aa6ba5ace
+2023-11-15 06:37:14.891 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'white wine', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('fd2a07df-15b1-34c1-b299-f67aa6ba5ace'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 36, 54, 526093)}, code=200, result=b'"make formula=white wine, task_uuid=fd2a07df-15b1-34c1-b299-f67aa6ba5ace"'
+2023-11-15 06:37:14.895 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0007
+2023-11-15 06:37:16.003 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=fd2a07df-15b1-34c1-b299-f67aa6ba5ace status=completed
+2023-11-15 06:37:18.764 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:37:18.776 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=260db371-cb35-3baa-87e1-3bdd768040a2 status=completed
+2023-11-15 06:37:36.061 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:37:36.067 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=fd2a07df-15b1-34c1-b299-f67aa6ba5ace status=completed
+2023-11-15 06:38:03.137 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0008
+2023-11-15 06:38:03.139 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=66c7a66d-225f-374f-b44b-22c0d7d3890e
+2023-11-15 06:38:03.148 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('66c7a66d-225f-374f-b44b-22c0d7d3890e'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 38, 2, 162905)}, code=200, result=b'"make formula=red wine, task_uuid=66c7a66d-225f-374f-b44b-22c0d7d3890e"'
+2023-11-15 06:38:03.152 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0008
+2023-11-15 06:38:07.231 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=66c7a66d-225f-374f-b44b-22c0d7d3890e status=completed
+2023-11-15 06:38:10.198 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0009
+2023-11-15 06:38:10.200 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=b86636cf-d42e-3a18-9be1-bce2dec73cc0
+2023-11-15 06:38:10.209 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'white wine', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('b86636cf-d42e-3a18-9be1-bce2dec73cc0'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jhjf', 'create_time': datetime.datetime(2023, 11, 15, 6, 38, 2, 162905)}, code=200, result=b'"make formula=white wine, task_uuid=b86636cf-d42e-3a18-9be1-bce2dec73cc0"'
+2023-11-15 06:38:10.213 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0009
+2023-11-15 06:38:10.743 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=b86636cf-d42e-3a18-9be1-bce2dec73cc0 status=completed
+2023-11-15 06:38:27.337 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:38:27.350 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=66c7a66d-225f-374f-b44b-22c0d7d3890e status=completed
+2023-11-15 06:38:30.810 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:38:30.814 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=b86636cf-d42e-3a18-9be1-bce2dec73cc0 status=completed
+2023-11-15 06:40:40.825 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.828 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=589bab8c-678b-33e4-a45c-e9382f57af96
+2023-11-15 06:40:40.840 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('589bab8c-678b-33e4-a45c-e9382f57af96'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=red wine, task_uuid=589bab8c-678b-33e4-a45c-e9382f57af96"'
+2023-11-15 06:40:40.844 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.846 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=86bc189b-f7b5-3ae7-b994-490b0011e150
+2023-11-15 06:40:40.858 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'white wine', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('86bc189b-f7b5-3ae7-b994-490b0011e150'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=white wine, task_uuid=86bc189b-f7b5-3ae7-b994-490b0011e150"'
+2023-11-15 06:40:40.862 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.864 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=c2395d06-12ce-3b6f-b4ce-f3a0c6306b19
+2023-11-15 06:40:40.876 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('c2395d06-12ce-3b6f-b4ce-f3a0c6306b19'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=red wine, task_uuid=c2395d06-12ce-3b6f-b4ce-f3a0c6306b19"'
+2023-11-15 06:40:40.880 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.882 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=3be8317b-62f0-3761-9a16-d27c0f6631b2
+2023-11-15 06:40:40.892 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'white wine', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('3be8317b-62f0-3761-9a16-d27c0f6631b2'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=white wine, task_uuid=3be8317b-62f0-3761-9a16-d27c0f6631b2"'
+2023-11-15 06:40:40.897 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.898 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=10e5ff22-6337-3bf4-b779-0b3c142a55d7
+2023-11-15 06:40:40.922 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'white wine', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('10e5ff22-6337-3bf4-b779-0b3c142a55d7'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=white wine, task_uuid=10e5ff22-6337-3bf4-b779-0b3c142a55d7"'
+2023-11-15 06:40:40.926 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:40.928 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=14aac9b8-55f8-376a-afe7-d5e4a30a7a08
+2023-11-15 06:40:40.940 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'red wine', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('14aac9b8-55f8-376a-afe7-d5e4a30a7a08'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 40, 39, 970667)}, code=200, result=b'"make formula=red wine, task_uuid=14aac9b8-55f8-376a-afe7-d5e4a30a7a08"'
+2023-11-15 06:40:40.945 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0010
+2023-11-15 06:40:43.964 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=86bc189b-f7b5-3ae7-b994-490b0011e150 status=completed
+2023-11-15 06:40:44.282 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=589bab8c-678b-33e4-a45c-e9382f57af96 status=completed
+2023-11-15 06:41:04.034 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=86bc189b-f7b5-3ae7-b994-490b0011e150 status=completed
+2023-11-15 06:41:04.350 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=589bab8c-678b-33e4-a45c-e9382f57af96 status=completed
+2023-11-15 06:41:05.147 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=3be8317b-62f0-3761-9a16-d27c0f6631b2 status=completed
+2023-11-15 06:41:05.440 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c2395d06-12ce-3b6f-b4ce-f3a0c6306b19 status=completed
+2023-11-15 06:41:25.235 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=3be8317b-62f0-3761-9a16-d27c0f6631b2 status=completed
+2023-11-15 06:41:25.525 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c2395d06-12ce-3b6f-b4ce-f3a0c6306b19 status=completed
+2023-11-15 06:41:26.367 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=10e5ff22-6337-3bf4-b779-0b3c142a55d7 status=completed
+2023-11-15 06:41:26.632 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=14aac9b8-55f8-376a-afe7-d5e4a30a7a08 status=completed
+2023-11-15 06:41:46.430 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=10e5ff22-6337-3bf4-b779-0b3c142a55d7 status=completed
+2023-11-15 06:41:46.695 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 06:41:46.701 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=14aac9b8-55f8-376a-afe7-d5e4a30a7a08 status=completed
+2023-11-15 06:50:58.590 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0011
+2023-11-15 06:50:58.599 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=95aafa7f-ced2-360b-864c-42b19f532adf
+2023-11-15 06:50:58.720 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('95aafa7f-ced2-360b-864c-42b19f532adf'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 50, 58, 88187)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=95aafa7f-ced2-360b-864c-42b19f532adf"'
+2023-11-15 06:50:58.730 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0011
+2023-11-15 06:51:02.279 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=95aafa7f-ced2-360b-864c-42b19f532adf status=completed
+2023-11-15 06:51:02.763 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0012
+2023-11-15 06:51:02.769 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=a1e0044a-7050-3a23-864d-677dbdbe2e0d
+2023-11-15 06:51:02.802 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('a1e0044a-7050-3a23-864d-677dbdbe2e0d'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '00oj', 'create_time': datetime.datetime(2023, 11, 15, 6, 50, 58, 88187)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=a1e0044a-7050-3a23-864d-677dbdbe2e0d"'
+2023-11-15 06:51:02.814 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0012
+2023-11-15 06:51:03.446 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a1e0044a-7050-3a23-864d-677dbdbe2e0d status=completed
+2023-11-15 06:51:22.345 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 06:51:22.349 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=95aafa7f-ced2-360b-864c-42b19f532adf status=completed
+2023-11-15 06:51:23.559 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 06:51:23.567 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a1e0044a-7050-3a23-864d-677dbdbe2e0d status=completed
+2023-11-15 07:27:56.691 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0013
+2023-11-15 07:27:56.698 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=19baf73d-2641-301e-8ee9-72d6128fb2a0
+2023-11-15 07:27:56.773 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('19baf73d-2641-301e-8ee9-72d6128fb2a0'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 27, 56, 556836)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=19baf73d-2641-301e-8ee9-72d6128fb2a0"'
+2023-11-15 07:27:56.783 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0013
+2023-11-15 07:28:00.464 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=19baf73d-2641-301e-8ee9-72d6128fb2a0 status=completed
+2023-11-15 07:28:00.488 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 07:28:00.493 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=19baf73d-2641-301e-8ee9-72d6128fb2a0 status=completed
+2023-11-15 07:30:50.557 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0014
+2023-11-15 07:30:50.562 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=333e4dbe-228a-3f82-92e3-75da6ea123f0
+2023-11-15 07:30:50.647 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('333e4dbe-228a-3f82-92e3-75da6ea123f0'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 30, 49, 630466)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=333e4dbe-228a-3f82-92e3-75da6ea123f0"'
+2023-11-15 07:30:50.655 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0014
+2023-11-15 07:30:54.904 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=333e4dbe-228a-3f82-92e3-75da6ea123f0 status=completed
+2023-11-15 07:30:54.937 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:30:54.946 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:30:54.962 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:30:54.966 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=333e4dbe-228a-3f82-92e3-75da6ea123f0 status=completed
+2023-11-15 07:32:18.968 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0015
+2023-11-15 07:32:18.972 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=22c306b7-21b6-3eab-8bcb-868a645ce3c9
+2023-11-15 07:32:18.984 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('22c306b7-21b6-3eab-8bcb-868a645ce3c9'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 32, 18, 217893)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=22c306b7-21b6-3eab-8bcb-868a645ce3c9"'
+2023-11-15 07:32:18.988 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0015
+2023-11-15 07:32:22.743 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=22c306b7-21b6-3eab-8bcb-868a645ce3c9 status=completed
+2023-11-15 07:32:22.795 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:32:22.804 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:32:22.813 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:32:22.817 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=22c306b7-21b6-3eab-8bcb-868a645ce3c9 status=completed
+2023-11-15 07:33:09.152 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0016
+2023-11-15 07:33:09.154 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=7a6553d6-397b-30ec-be31-f25254b27741
+2023-11-15 07:33:09.165 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('7a6553d6-397b-30ec-be31-f25254b27741'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 33, 8, 640046)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=7a6553d6-397b-30ec-be31-f25254b27741"'
+2023-11-15 07:33:09.169 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0016
+2023-11-15 07:33:12.566 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=7a6553d6-397b-30ec-be31-f25254b27741 status=completed
+2023-11-15 07:33:12.600 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:33:12.606 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 07:33:12.614 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up3.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:33:12.617 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=7a6553d6-397b-30ec-be31-f25254b27741 status=completed
+2023-11-15 07:33:51.328 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0017
+2023-11-15 07:33:51.333 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=24dce03e-34cc-367f-b47a-89c59b188da6
+2023-11-15 07:33:51.366 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('24dce03e-34cc-367f-b47a-89c59b188da6'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 33, 50, 772705)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=24dce03e-34cc-367f-b47a-89c59b188da6"'
+2023-11-15 07:33:51.376 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0017
+2023-11-15 07:33:55.355 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=24dce03e-34cc-367f-b47a-89c59b188da6 status=completed
+2023-11-15 07:34:20.209 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:34:20.225 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:34:20.229 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=24dce03e-34cc-367f-b47a-89c59b188da6 status=completed
+2023-11-15 07:34:59.643 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0018
+2023-11-15 07:34:59.648 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=68c20861-f265-3d23-b5fb-3e037c4eb0bc
+2023-11-15 07:34:59.684 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('68c20861-f265-3d23-b5fb-3e037c4eb0bc'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'jyht', 'create_time': datetime.datetime(2023, 11, 15, 7, 34, 59, 498706)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=68c20861-f265-3d23-b5fb-3e037c4eb0bc"'
+2023-11-15 07:34:59.695 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0018
+2023-11-15 07:35:03.729 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=68c20861-f265-3d23-b5fb-3e037c4eb0bc status=completed
+2023-11-15 07:35:28.563 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 07:35:28.580 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up3.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:35:28.584 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=68c20861-f265-3d23-b5fb-3e037c4eb0bc status=completed
+2023-11-15 07:37:48.490 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0019
+2023-11-15 07:37:48.494 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=a2ea9cfa-888e-3d28-963e-42afa7ab57af
+2023-11-15 07:37:48.504 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('a2ea9cfa-888e-3d28-963e-42afa7ab57af'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 37, 47, 628432)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=a2ea9cfa-888e-3d28-963e-42afa7ab57af"'
+2023-11-15 07:37:48.509 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0019
+2023-11-15 07:37:48.510 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=796e0209-45ff-315d-b4f2-c74ee2763d62
+2023-11-15 07:37:48.519 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('796e0209-45ff-315d-b4f2-c74ee2763d62'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 37, 47, 628432)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=796e0209-45ff-315d-b4f2-c74ee2763d62"'
+2023-11-15 07:37:48.522 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0019
+2023-11-15 07:37:52.076 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=796e0209-45ff-315d-b4f2-c74ee2763d62 status=completed
+2023-11-15 07:37:52.418 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a2ea9cfa-888e-3d28-963e-42afa7ab57af status=completed
+2023-11-15 07:38:16.712 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a2ea9cfa-888e-3d28-963e-42afa7ab57af status=completed
+2023-11-15 07:38:16.720 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 07:38:16.726 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:38:16.729 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=796e0209-45ff-315d-b4f2-c74ee2763d62 status=completed
+2023-11-15 07:38:37.106 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0020
+2023-11-15 07:38:37.109 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=ebf97868-f903-303e-9a6d-06f1cbc8440e
+2023-11-15 07:38:37.128 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('ebf97868-f903-303e-9a6d-06f1cbc8440e'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 38, 36, 764954)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=ebf97868-f903-303e-9a6d-06f1cbc8440e"'
+2023-11-15 07:38:37.134 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0020
+2023-11-15 07:38:37.136 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=a403b26e-180d-359d-877a-47b8d9425e66
+2023-11-15 07:38:37.153 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('a403b26e-180d-359d-877a-47b8d9425e66'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 38, 36, 764954)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=a403b26e-180d-359d-877a-47b8d9425e66"'
+2023-11-15 07:38:37.157 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0020
+2023-11-15 07:38:37.159 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=1bef26d3-a722-3e4a-a6fd-7f4a3e1c72da
+2023-11-15 07:38:37.169 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('1bef26d3-a722-3e4a-a6fd-7f4a3e1c72da'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 38, 36, 764954)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=1bef26d3-a722-3e4a-a6fd-7f4a3e1c72da"'
+2023-11-15 07:38:37.172 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0020
+2023-11-15 07:38:41.634 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a403b26e-180d-359d-877a-47b8d9425e66 status=completed
+2023-11-15 07:38:41.641 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=ebf97868-f903-303e-9a6d-06f1cbc8440e status=completed
+2023-11-15 07:39:05.920 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=ebf97868-f903-303e-9a6d-06f1cbc8440e status=completed
+2023-11-15 07:39:06.594 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=a403b26e-180d-359d-877a-47b8d9425e66 status=completed
+2023-11-15 07:39:09.142 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=1bef26d3-a722-3e4a-a6fd-7f4a3e1c72da status=completed
+2023-11-15 07:39:19.314 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:39:19.321 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:39:19.329 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:39:19.333 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=1bef26d3-a722-3e4a-a6fd-7f4a3e1c72da status=completed
+2023-11-15 07:49:55.162 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0021
+2023-11-15 07:49:55.170 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=c1a244a5-4ad2-3578-8b22-4c3971dad192
+2023-11-15 07:49:55.298 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('c1a244a5-4ad2-3578-8b22-4c3971dad192'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 49, 54, 732905)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=c1a244a5-4ad2-3578-8b22-4c3971dad192"'
+2023-11-15 07:49:55.308 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0021
+2023-11-15 07:49:55.312 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=99b213b3-ecc8-3622-85ae-d5cdca7fc94d
+2023-11-15 07:49:55.339 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('99b213b3-ecc8-3622-85ae-d5cdca7fc94d'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 49, 54, 732905)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=99b213b3-ecc8-3622-85ae-d5cdca7fc94d"'
+2023-11-15 07:49:55.393 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0021
+2023-11-15 07:49:55.397 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=137f7867-4340-3584-99dc-073ddbcf4064
+2023-11-15 07:49:55.425 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('137f7867-4340-3584-99dc-073ddbcf4064'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 49, 54, 732905)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=137f7867-4340-3584-99dc-073ddbcf4064"'
+2023-11-15 07:49:55.434 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0021
+2023-11-15 07:49:59.570 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=99b213b3-ecc8-3622-85ae-d5cdca7fc94d status=completed
+2023-11-15 07:49:59.577 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c1a244a5-4ad2-3578-8b22-4c3971dad192 status=completed
+2023-11-15 07:50:24.356 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c1a244a5-4ad2-3578-8b22-4c3971dad192 status=completed
+2023-11-15 07:50:24.567 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=99b213b3-ecc8-3622-85ae-d5cdca7fc94d status=completed
+2023-11-15 07:50:27.145 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=137f7867-4340-3584-99dc-073ddbcf4064 status=completed
+2023-11-15 07:50:32.728 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:50:32.735 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 07:50:32.749 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:50:32.753 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=137f7867-4340-3584-99dc-073ddbcf4064 status=completed
+2023-11-15 07:56:04.930 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0022
+2023-11-15 07:56:04.932 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=41f24430-769e-3c85-8555-96fd12d8e7e8
+2023-11-15 07:56:04.955 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('41f24430-769e-3c85-8555-96fd12d8e7e8'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 56, 3, 939192)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=41f24430-769e-3c85-8555-96fd12d8e7e8"'
+2023-11-15 07:56:04.962 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0022
+2023-11-15 07:56:04.965 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=93b250b0-afe8-3bd3-b5bc-1d2917db3ed0
+2023-11-15 07:56:04.980 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('93b250b0-afe8-3bd3-b5bc-1d2917db3ed0'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 56, 3, 939192)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=93b250b0-afe8-3bd3-b5bc-1d2917db3ed0"'
+2023-11-15 07:56:04.984 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0022
+2023-11-15 07:56:04.985 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=8921619c-08bc-3ba9-8002-48eceb8b4361
+2023-11-15 07:56:04.995 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('8921619c-08bc-3ba9-8002-48eceb8b4361'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0009', 'create_time': datetime.datetime(2023, 11, 15, 7, 56, 3, 939192)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=8921619c-08bc-3ba9-8002-48eceb8b4361"'
+2023-11-15 07:56:04.999 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0022
+2023-11-15 07:56:09.479 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=41f24430-769e-3c85-8555-96fd12d8e7e8 status=completed
+2023-11-15 07:56:09.486 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=93b250b0-afe8-3bd3-b5bc-1d2917db3ed0 status=completed
+2023-11-15 07:56:34.149 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=93b250b0-afe8-3bd3-b5bc-1d2917db3ed0 status=completed
+2023-11-15 07:56:34.253 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=41f24430-769e-3c85-8555-96fd12d8e7e8 status=completed
+2023-11-15 07:56:36.839 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=8921619c-08bc-3ba9-8002-48eceb8b4361 status=completed
+2023-11-15 07:56:41.808 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': 'Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed.', 'sync': False}, result=b'"ok"'
+2023-11-15 07:56:41.818 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:56:41.827 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:56:41.831 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=8921619c-08bc-3ba9-8002-48eceb8b4361 status=completed
+2023-11-15 07:58:33.679 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0023
+2023-11-15 07:58:33.684 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=b42aa2b7-8334-30ec-a15c-3d45aac6c905
+2023-11-15 07:58:33.755 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('b42aa2b7-8334-30ec-a15c-3d45aac6c905'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0010', 'create_time': datetime.datetime(2023, 11, 15, 7, 58, 33, 277465)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=b42aa2b7-8334-30ec-a15c-3d45aac6c905"'
+2023-11-15 07:58:33.758 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0023
+2023-11-15 07:58:33.759 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=dbbdadea-3819-3e6c-b576-b53df3f8869f
+2023-11-15 07:58:33.767 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('dbbdadea-3819-3e6c-b576-b53df3f8869f'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0010', 'create_time': datetime.datetime(2023, 11, 15, 7, 58, 33, 277465)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=dbbdadea-3819-3e6c-b576-b53df3f8869f"'
+2023-11-15 07:58:33.770 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0023
+2023-11-15 07:58:33.772 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=c3f9f2c0-8fd6-33d5-9ee4-640cf24e4fdb
+2023-11-15 07:58:33.780 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('c3f9f2c0-8fd6-33d5-9ee4-640cf24e4fdb'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': '0010', 'create_time': datetime.datetime(2023, 11, 15, 7, 58, 33, 277465)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=c3f9f2c0-8fd6-33d5-9ee4-640cf24e4fdb"'
+2023-11-15 07:58:33.783 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=A0023
+2023-11-15 07:58:37.374 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=b42aa2b7-8334-30ec-a15c-3d45aac6c905 status=completed
+2023-11-15 07:58:37.382 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=dbbdadea-3819-3e6c-b576-b53df3f8869f status=completed
+2023-11-15 07:59:02.111 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=b42aa2b7-8334-30ec-a15c-3d45aac6c905 status=completed
+2023-11-15 07:59:02.437 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=dbbdadea-3819-3e6c-b576-b53df3f8869f status=completed
+2023-11-15 07:59:05.077 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c3f9f2c0-8fd6-33d5-9ee4-640cf24e4fdb status=completed
+2023-11-15 07:59:30.048 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 07:59:30.058 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 07:59:30.061 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=c3f9f2c0-8fd6-33d5-9ee4-640cf24e4fdb status=completed
+2023-11-15 08:46:46.878 | INFO     | __main__:<module>:40 - center is starting, bind on 0.0.0.0:9000, log_path is /var/log/richtech/center.log
+2023-11-15 08:46:46.924 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68ba3073a0>
+2023-11-15 08:46:46.925 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68ba3073a0>
+2023-11-15 09:06:48.288 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b99e9d60>
+2023-11-15 09:06:48.290 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b99e9d60>
+2023-11-15 09:06:49.201 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039208
+2023-11-15 09:06:49.214 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=81e94de8-2e3b-3a5e-8cac-62bbc4942e12
+2023-11-15 09:06:49.302 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('81e94de8-2e3b-3a5e-8cac-62bbc4942e12'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'aaaa', 'create_time': datetime.datetime(2023, 11, 15, 9, 6, 48, 354095)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=81e94de8-2e3b-3a5e-8cac-62bbc4942e12"'
+2023-11-15 09:06:49.309 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039208
+2023-11-15 09:06:52.845 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=81e94de8-2e3b-3a5e-8cac-62bbc4942e12 status=completed
+2023-11-15 09:07:05.891 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b9124520>
+2023-11-15 09:07:05.892 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b9124520>
+2023-11-15 09:07:06.406 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039225
+2023-11-15 09:07:06.411 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=eacc8a0f-7745-34e7-bcf9-a4bc01d614ba
+2023-11-15 09:07:06.444 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('eacc8a0f-7745-34e7-bcf9-a4bc01d614ba'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'kkkk', 'create_time': datetime.datetime(2023, 11, 15, 9, 6, 48, 354095)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=eacc8a0f-7745-34e7-bcf9-a4bc01d614ba"'
+2023-11-15 09:07:06.455 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039225
+2023-11-15 09:07:06.563 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=eacc8a0f-7745-34e7-bcf9-a4bc01d614ba status=completed
+2023-11-15 09:07:17.968 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 09:07:17.988 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:07:17.998 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=81e94de8-2e3b-3a5e-8cac-62bbc4942e12 status=completed
+2023-11-15 09:07:30.750 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 09:07:30.758 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:07:30.761 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=eacc8a0f-7745-34e7-bcf9-a4bc01d614ba status=completed
+2023-11-15 09:13:42.349 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b90cc2e0>
+2023-11-15 09:13:42.351 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b90cc2e0>
+2023-11-15 09:13:42.496 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039622
+2023-11-15 09:13:42.503 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=abec4d27-bc58-3cca-8b61-83b7100d5d57
+2023-11-15 09:13:42.524 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('abec4d27-bc58-3cca-8b61-83b7100d5d57'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'ffff', 'create_time': datetime.datetime(2023, 11, 15, 9, 13, 42, 375258)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=abec4d27-bc58-3cca-8b61-83b7100d5d57"'
+2023-11-15 09:13:42.528 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039622
+2023-11-15 09:13:45.960 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=abec4d27-bc58-3cca-8b61-83b7100d5d57 status=completed
+2023-11-15 09:13:59.415 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b9145eb0>
+2023-11-15 09:13:59.416 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b9145eb0>
+2023-11-15 09:13:59.624 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039639
+2023-11-15 09:13:59.629 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=237c232e-72d2-33eb-a10e-c2fcbaae063d
+2023-11-15 09:13:59.661 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('237c232e-72d2-33eb-a10e-c2fcbaae063d'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'llll', 'create_time': datetime.datetime(2023, 11, 15, 9, 13, 42, 375258)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=237c232e-72d2-33eb-a10e-c2fcbaae063d"'
+2023-11-15 09:13:59.672 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039639
+2023-11-15 09:14:00.674 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=237c232e-72d2-33eb-a10e-c2fcbaae063d status=completed
+2023-11-15 09:14:10.978 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 09:14:11.011 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:14:11.016 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=abec4d27-bc58-3cca-8b61-83b7100d5d57 status=completed
+2023-11-15 09:14:26.284 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up2.mp3"'
+2023-11-15 09:14:26.294 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up2.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:14:26.297 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=237c232e-72d2-33eb-a10e-c2fcbaae063d status=completed
+2023-11-15 09:14:38.672 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b90cca00>
+2023-11-15 09:14:38.674 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b90cca00>
+2023-11-15 09:14:38.876 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039678
+2023-11-15 09:14:38.883 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=d35b3c98-ad38-3244-9451-38601143ef72
+2023-11-15 09:14:38.915 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('d35b3c98-ad38-3244-9451-38601143ef72'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'ffff', 'create_time': datetime.datetime(2023, 11, 15, 9, 14, 38, 690577)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=d35b3c98-ad38-3244-9451-38601143ef72"'
+2023-11-15 09:14:38.926 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039678
+2023-11-15 09:14:38.931 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=7157b7b3-567c-3032-9566-6574b7160c69
+2023-11-15 09:14:38.967 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'La Crema Pinot Noir Monterey', 'type': 'red', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('7157b7b3-567c-3032-9566-6574b7160c69'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'ffff', 'create_time': datetime.datetime(2023, 11, 15, 9, 14, 38, 690577)}, code=200, result=b'"make formula=La Crema Pinot Noir Monterey, task_uuid=7157b7b3-567c-3032-9566-6574b7160c69"'
+2023-11-15 09:14:38.978 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039678
+2023-11-15 09:14:42.657 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=7157b7b3-567c-3032-9566-6574b7160c69 status=completed
+2023-11-15 09:14:42.949 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d35b3c98-ad38-3244-9451-38601143ef72 status=completed
+2023-11-15 09:14:46.028 | WARNING  | common.db.database:__exit__:37 - try commit db=<sqlalchemy.orm.session.Session object at 0x7f68b90d5460>
+2023-11-15 09:14:46.028 | DEBUG    | common.db.database:__exit__:42 - close db=<sqlalchemy.orm.session.Session object at 0x7f68b90d5460>
+2023-11-15 09:14:47.029 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039686
+2023-11-15 09:14:47.034 | DEBUG    | common.db.crud.center:get_next_task:342 - next_task=e08af869-4157-34e4-82fe-fe39c55a8812
+2023-11-15 09:14:47.063 | INFO     | common.api:make:140 - url=http://127.0.0.1:9001/coffee/make params={'formula': 'Kim Crawford Sauvignon Blanc', 'type': 'white', 'cup': 'Medium Cup', 'sweetness': 100, 'task_uuid': UUID('e08af869-4157-34e4-82fe-fe39c55a8812'), 'ice': 'light', 'milk': 'fresh_dairy', 'receipt_number': 'eeee', 'create_time': datetime.datetime(2023, 11, 15, 9, 14, 38, 690577)}, code=200, result=b'"make formula=Kim Crawford Sauvignon Blanc, task_uuid=e08af869-4157-34e4-82fe-fe39c55a8812"'
+2023-11-15 09:14:47.070 | DEBUG    | common.db.crud.center:get_next_task:338 - next_order=P_1700039686
+2023-11-15 09:15:07.121 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=7157b7b3-567c-3032-9566-6574b7160c69 status=completed
+2023-11-15 09:15:07.515 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up3.mp3"'
+2023-11-15 09:15:07.520 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up3.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:15:07.523 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=d35b3c98-ad38-3244-9451-38601143ef72 status=completed
+2023-11-15 09:15:10.033 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=e08af869-4157-34e4-82fe-fe39c55a8812 status=completed
+2023-11-15 09:15:35.067 | INFO     | common.api:choose_one_speech_text:219 - url=http://127.0.0.1:9001/coffee/speech/random params={'code': 'order_up'}, result=b'"/richtech/resource/audio/voices/order_up1.mp3"'
+2023-11-15 09:15:35.089 | INFO     | common.api:gtts:89 - url=http://127.0.0.1:9004/audio/gtts params={'text': b'"/richtech/resource/audio/voices/order_up1.mp3"', 'sync': False}, result=b'"ok"'
+2023-11-15 09:15:35.098 | INFO     | common.db.crud.center:update_task_status:292 - set task_uuid=e08af869-4157-34e4-82fe-fe39c55a8812 status=completed

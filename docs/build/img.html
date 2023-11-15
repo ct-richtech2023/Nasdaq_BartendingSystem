@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Software Architecture &#8212; Clouffee  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="GPIO" href="gpio.html" />
+    <link rel="prev" title="Service" href="service.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="software-architecture">
+<h1>Software Architecture<a class="headerlink" href="#software-architecture" title="Permalink to this headline">¶</a></h1>
+<section id="soft">
+<h2>Soft<a class="headerlink" href="#soft" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/4c7368f87737dd29e499c14902fab584a99222db85bba980cf4a9599aca5923b.svg" class="align-center" src="_images/4c7368f87737dd29e499c14902fab584a99222db85bba980cf4a9599aca5923b.svg" /><p>No.1 floor: expose web api, you can see it on <a class="reference external" href="http:/">http:/</a>/{adam-pc-ip}:[9000-9005].</p>
+<p>No.2 floor: web api implement floor.</p>
+<p>No.3 floor: decoupling floor, web api only can query db and use redis publish msg to backend service.</p>
+<p>No.4 floor: backend service floor, use supervisor to manage those.</p>
+<p>No.5 floor: physical device floor.</p>
+</section>
+<section id="network">
+<h2>Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h2>
+<img alt="_images/cb4fb46c1b2c8398042a49398b7860d1a6327a2659b5a8fd03fb98524c01ca03.svg" class="align-center" src="_images/cb4fb46c1b2c8398042a49398b7860d1a6327a2659b5a8fd03fb98524c01ca03.svg" /><p>api: Adam business interface.</p>
+<p><a class="reference external" href="https://github.com/fatedier/frp/">frp</a> <a class="reference external" href="https://registry.hub.docker.com/r/snowdreamtech/frpc">docker</a>:
+A fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet.
+As of now, it supports TCP and UDP, as well as HTTP and HTTPS protocols,
+where requests can be forwarded to internal services by domain name.</p>
+<p>postgres <a class="reference external" href="https://registry.hub.docker.com/_/postgres">docker</a>:
+An object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.</p>
+<p><a class="reference external" href="https://github.com/vrana/adminer">adminer</a> <a class="reference external" href="https://registry.hub.docker.com/_/adminer">docker</a>:
+A full-featured database management tool written in PHP. Conversely to phpMyAdmin, it consist of a single file ready
+to deploy to the target server. Adminer is available for MySQL, PostgreSQL,
+SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.</p>
+<p><a class="reference external" href="https://github.com/nicolasff/webdis">webdis</a> <a class="reference external" href="https://registry.hub.docker.com/r/nicolas/webdis">docker</a>:
+A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and http-parser.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Clouffee</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="get_start.html">Get Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Config Env</a></li>
+<li class="toctree-l1"><a class="reference internal" href="service.html">Service</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Software Architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#soft">Soft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#network">Network</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gpio.html">GPIO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gpio.html#sea-salt-cream">Sea salt cream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="coffee.html">Coffee</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="service.html" title="previous chapter">Service</a></li>
+      <li>Next: <a href="gpio.html" title="next chapter">GPIO</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Richetech.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/img.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,13 @@
+# 在当前路径执行 docker-compose up -d
+version: "3.8"
+services:
+  audio:
+    restart: unless-stopped
+    image: m986883511/ubuntu:audio
+    devices:
+      - /dev
+    dns: 114.114.114.114
+    container_name: audio
+    build:
+      context: .
+      dockerfile: audio.Dockerfile

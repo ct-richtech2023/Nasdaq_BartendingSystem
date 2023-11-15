@@ -1,0 +1,396 @@
+2023-11-15 03:07:29.843 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 03:07:29.896 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 03:07:30.062 | INFO     | chat:run:188 - now=1700017650.062291
+2023-11-15 03:07:30.063 | INFO     | chat:run:189 - next_time=1700023469.9529004
+2023-11-15 03:08:38.526 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 03:08:38.564 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 03:08:38.673 | INFO     | chat:run:188 - now=1700017718.673864
+2023-11-15 03:08:38.674 | INFO     | chat:run:189 - next_time=1700021678.6058822
+2023-11-15 03:10:53.558 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 03:10:54.234 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 03:10:54.235 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 05:48:37.403 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 05:48:37.442 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 05:48:37.551 | INFO     | chat:run:188 - now=1700027317.5511754
+2023-11-15 05:48:37.553 | INFO     | chat:run:189 - next_time=1700029177.4844682
+2023-11-15 06:06:52.802 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 06:06:53.288 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 06:06:53.289 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 06:09:23.032 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:09:23.208 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:09:23.211 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:09:23.215 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:09:26.087 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 06:09:26.092 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 06:09:26.096 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 06:09:26.134 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:09:26.151 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 06:09:26.162 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:09:26.165 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:09:26.175 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 06:09:26.183 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:09:26.187 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:09:26.196 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 06:09:26.204 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:09:26.414 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 06:09:26.498 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:09:26.516 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 06:09:26.530 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:10:10.534 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:10:10.604 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:10:10.608 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:10:10.971 | INFO     | business:gtts:101 - gtts text=material red_wine is not in use, please check again, level=1
+2023-11-15 06:10:13.674 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 06:10:13.699 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 06:10:13.713 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 06:10:13.811 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:10:13.835 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 06:10:13.852 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:10:13.855 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:10:13.867 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 06:10:13.875 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:10:13.879 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:10:13.890 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up3.mp3, level=1
+2023-11-15 06:10:13.898 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:10:13.979 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 06:10:14.064 | INFO     | business:gtts:101 - gtts text=Sorry j-h-j-f, your red wine is failed., level=1
+2023-11-15 06:10:14.081 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up3.mp3, level=1
+2023-11-15 06:10:14.096 | INFO     | business:gtts:101 - gtts text=make red wine failed, adam stopped., level=1
+2023-11-15 06:10:23.432 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 06:10:23.434 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 06:10:26.493 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 06:10:26.495 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 06:10:29.508 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 06:10:29.509 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 06:10:32.516 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 06:10:32.517 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 06:10:35.488 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 06:10:35.488 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 06:10:37.484 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 06:10:37.485 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 06:10:39.589 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 06:10:39.591 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 06:10:41.211 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 06:10:41.212 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 06:10:43.470 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 06:10:43.471 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:30:26.949 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 07:30:27.009 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 07:30:27.288 | INFO     | chat:run:188 - now=1700033427.2887812
+2023-11-15 07:30:27.291 | INFO     | chat:run:189 - next_time=1700035707.1445897
+2023-11-15 07:30:46.569 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:30:47.351 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:30:47.352 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:30:54.870 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:30:54.932 | INFO     | business:gtts:101 - gtts text=Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:30:54.946 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:30:54.947 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:30:54.956 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:30:54.975 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:31:52.287 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:31:53.416 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:31:53.417 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:31:56.704 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:31:56.705 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:32:00.106 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:32:00.107 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:32:03.317 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:32:03.318 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:32:22.715 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:32:22.757 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:32:22.789 | INFO     | business:gtts:101 - gtts text=Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:32:22.808 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:32:22.823 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:32:23.634 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:32:23.634 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:32:25.426 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:32:25.426 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:32:28.412 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:32:28.413 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:32:31.452 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:32:31.454 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:32:34.900 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:32:34.901 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:33:03.496 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:33:04.067 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:33:04.068 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:33:12.528 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 07:33:12.576 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:33:12.595 | INFO     | business:gtts:101 - gtts text=Sorry j-y-h-t, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:33:12.610 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up3.mp3, level=1
+2023-11-15 07:33:12.622 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:33:13.399 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:33:13.400 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:33:15.422 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.160.106:443: Handshake read failed
+2023-11-15 07:33:15.423 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:33:18.426 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.160.106:443: Handshake read failed
+2023-11-15 07:33:18.428 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:33:21.455 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 07:33:21.457 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 07:33:24.866 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.160.106:443: Handshake read failed
+2023-11-15 07:33:24.866 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:33:49.074 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:33:49.281 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:33:49.282 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:33:55.339 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:33:55.363 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:33:55.588 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:33:55.590 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:33:57.712 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.163.42:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:33:57.714 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:34:20.217 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:34:20.808 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:34:20.808 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:35:03.711 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:35:03.739 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:35:04.677 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:35:04.678 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:35:06.328 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:35:06.330 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:35:28.573 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up3.mp3, level=1
+2023-11-15 07:35:29.419 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 07:35:29.420 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 07:37:52.063 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:37:52.084 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:37:52.373 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:37:52.428 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:37:52.449 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:37:52.449 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:37:54.302 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.160.106:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:37:54.303 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:37:57.326 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:37:57.328 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:37:59.453 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.160.106:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:37:59.455 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:38:16.723 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 07:38:17.555 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 07:38:17.556 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 07:38:41.608 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:38:41.615 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:38:41.642 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:38:41.649 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:38:42.322 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:38:42.323 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:38:44.086 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:38:44.086 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:38:46.189 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:38:46.191 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:38:49.241 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:38:49.241 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:39:09.109 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 07:39:09.150 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:39:09.317 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:39:09.318 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:39:11.476 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:39:11.478 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:39:19.309 | INFO     | business:gtts:101 - gtts text=Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:39:19.325 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:39:19.338 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:39:19.531 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:39:19.532 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:39:22.652 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:39:22.653 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:39:26.058 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:39:26.060 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:49:45.786 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:49:46.670 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:49:46.671 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:49:59.552 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 07:49:59.555 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:49:59.577 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:49:59.586 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:50:00.231 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:50:00.233 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:50:02.318 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:50:02.319 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:50:03.938 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:50:03.939 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:50:06.961 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:50:06.963 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:50:27.081 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:50:27.099 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:50:27.100 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:50:27.154 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:50:28.731 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:50:28.733 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:50:32.724 | INFO     | business:gtts:101 - gtts text=Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:50:32.737 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:50:32.738 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:50:32.740 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 07:50:32.759 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:50:35.746 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 07:50:35.747 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 07:50:38.675 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:50:38.677 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:55:07.778 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:55:07.849 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:55:07.849 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:56:09.459 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:56:09.465 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:56:09.486 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:56:09.495 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:56:09.941 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:56:09.942 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:56:11.753 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:56:11.755 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:56:13.876 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:56:13.878 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:56:16.911 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:56:16.913 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:56:36.789 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:56:36.864 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:56:37.023 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:56:37.024 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:56:38.658 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:56:38.660 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:56:41.803 | INFO     | business:gtts:101 - gtts text=Sorry 0-0-0-9, your Kim Crawford Sauvignon Blanc is failed., level=1
+2023-11-15 07:56:41.822 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:56:41.837 | INFO     | business:gtts:101 - gtts text=make Kim Crawford Sauvignon Blanc failed, adam stopped., level=1
+2023-11-15 07:56:42.677 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:56:42.679 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:56:45.756 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:56:45.757 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:56:49.156 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:56:49.157 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:57:56.903 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 07:57:57.432 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:57:57.432 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 07:58:37.344 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 07:58:37.357 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making2.mp3, level=1
+2023-11-15 07:58:37.382 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:58:37.391 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:58:38.045 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:58:38.047 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 07:58:40.172 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:58:40.174 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making2.mp3
+2023-11-15 07:58:42.295 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:58:42.297 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:58:45.311 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: tcp handshaker shutdown
+2023-11-15 07:58:45.312 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:59:05.051 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 07:59:05.085 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 07:59:05.392 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:59:05.393 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 07:59:06.993 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 07:59:06.994 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 07:59:30.053 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 07:59:31.025 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 07:59:31.026 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 08:02:04.417 | INFO     | business:gtts:101 - gtts text=hello, level=1
+2023-11-15 08:02:05.318 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNAVAILABLE: ipv4:172.217.160.106:443: recvmsg:Connection reset by peer
+2023-11-15 08:02:05.320 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 08:04:38.598 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 08:04:38.652 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 08:04:38.774 | INFO     | chat:run:188 - now=1700035478.774798
+2023-11-15 08:04:38.776 | INFO     | chat:run:189 - next_time=1700040458.7029228
+2023-11-15 08:04:43.551 | INFO     | business:gtts:101 - gtts text=hello, level=1
+2023-11-15 08:05:24.901 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.43.10:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 08:05:24.910 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 08:11:57.543 | INFO     | api:play_music:20 - play_music Oops.mp3
+2023-11-15 08:11:57.543 | INFO     | playtts:pause:32 - pause this play thread
+2023-11-15 08:11:57.544 | INFO     | audio_process:play_music:34 - play music cmd is SDL_AUDIODRIVER=alsa AUDIODEV=hw:1,0 ffplay -nodisp -autoexit -volume 100 /richtech/resource/audio/musics/Oops.mp3
+2023-11-15 08:11:57.551 | INFO     | audio_process:play_music:38 - now Oops.mp3 is playing
+2023-11-15 08:11:57.551 | INFO     | playtts:proceed:42 - continue to play
+2023-11-15 08:15:42.215 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 08:15:42.716 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:15:42.717 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:15:50.364 | INFO     | api:play_music:20 - play_music Oops.mp3
+2023-11-15 08:15:50.365 | INFO     | playtts:pause:32 - pause this play thread
+2023-11-15 08:15:50.365 | INFO     | audio_process:play_music:34 - play music cmd is SDL_AUDIODRIVER=alsa AUDIODEV=hw:1,0 ffplay -nodisp -autoexit -volume 100 /richtech/resource/audio/musics/Oops.mp3
+2023-11-15 08:15:50.372 | INFO     | audio_process:play_music:38 - now Oops.mp3 is playing
+2023-11-15 08:15:50.373 | INFO     | playtts:proceed:42 - continue to play
+2023-11-15 08:35:43.365 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 08:35:43.764 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:35:43.764 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:35:47.236 | INFO     | api:play_music:20 - play_music Oops.mp3
+2023-11-15 08:35:47.237 | INFO     | playtts:pause:32 - pause this play thread
+2023-11-15 08:35:47.237 | INFO     | audio_process:play_music:34 - play music cmd is SDL_AUDIODRIVER=alsa AUDIODEV=hw:1,0 ffplay -nodisp -autoexit -volume 100 /richtech/resource/audio/musics/Oops.mp3
+2023-11-15 08:35:47.276 | INFO     | audio_process:play_music:38 - now Oops.mp3 is playing
+2023-11-15 08:35:47.277 | INFO     | playtts:proceed:42 - continue to play
+2023-11-15 08:44:05.719 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 08:44:05.764 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 08:44:05.873 | INFO     | chat:run:188 - now=1700037845.8729684
+2023-11-15 08:44:05.874 | INFO     | chat:run:189 - next_time=1700043425.8051426
+2023-11-15 08:46:25.566 | INFO     | __main__:<module>:38 - audio is starting, bind on 0.0.0.0:9004, log_path is /var/log/richtech/audio.log
+2023-11-15 08:46:25.597 | INFO     | business:__init__:38 - cmd is amixer set Master 100%
+2023-11-15 08:46:25.692 | INFO     | chat:run:188 - now=1700037985.6925833
+2023-11-15 08:46:25.693 | INFO     | chat:run:189 - next_time=1700041765.6307817
+2023-11-15 08:50:31.830 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 08:50:32.720 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:50:32.720 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:59:09.331 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/ready.mp3, level=1
+2023-11-15 08:59:10.267 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:59:10.268 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/ready.mp3
+2023-11-15 08:59:22.854 | INFO     | api:play_music:20 - play_music Oops.mp3
+2023-11-15 08:59:22.854 | INFO     | playtts:pause:32 - pause this play thread
+2023-11-15 08:59:22.854 | INFO     | audio_process:play_music:34 - play music cmd is SDL_AUDIODRIVER=alsa AUDIODEV=hw:1,0 ffplay -nodisp -autoexit -volume 100 /richtech/resource/audio/musics/Oops.mp3
+2023-11-15 08:59:22.859 | INFO     | audio_process:play_music:38 - now Oops.mp3 is playing
+2023-11-15 08:59:22.859 | INFO     | playtts:proceed:42 - continue to play
+2023-11-15 09:04:52.614 | INFO     | business:stop_audio:73 - stop_audio
+2023-11-15 09:05:15.061 | INFO     | business:stop_audio:73 - stop_audio
+2023-11-15 09:05:45.300 | INFO     | business:stop_audio:73 - stop_audio
+2023-11-15 09:06:00.012 | INFO     | api:play_music:20 - play_music Oops.mp3
+2023-11-15 09:06:00.013 | INFO     | playtts:pause:32 - pause this play thread
+2023-11-15 09:06:00.014 | INFO     | audio_process:play_music:34 - play music cmd is SDL_AUDIODRIVER=alsa AUDIODEV=hw:1,0 ffplay -nodisp -autoexit -volume 100 /richtech/resource/audio/musics/Oops.mp3
+2023-11-15 09:06:00.030 | INFO     | audio_process:play_music:38 - now Oops.mp3 is playing
+2023-11-15 09:06:00.031 | INFO     | playtts:proceed:42 - continue to play
+2023-11-15 09:06:11.011 | INFO     | business:stop_audio:73 - stop_audio
+2023-11-15 09:06:52.825 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 09:06:52.853 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:06:53.278 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:06:53.279 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:07:06.549 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 09:07:06.569 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:07:17.978 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 09:07:30.753 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 09:07:35.624 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 09:07:35.625 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 09:07:38.662 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:07:38.663 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:07:40.253 | ERROR    | playtts:generate_mp3:72 - generate mp3 error, err=503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.251.42.234:443: Failed to connect to remote host: FD Shutdown
+2023-11-15 09:07:40.254 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/generate_failed1.mp3
+2023-11-15 09:07:43.242 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 09:07:43.243 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 09:07:46.666 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:07:46.668 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:11:12.641 | INFO     | business:gtts:101 - gtts text=hello, level=1
+2023-11-15 09:11:13.581 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:11:59.166 | INFO     | business:stop_audio:73 - stop_audio
+2023-11-15 09:13:45.911 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 09:13:45.977 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:13:46.855 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:13:46.856 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:13:48.705 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:14:00.655 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 09:14:00.683 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:14:01.578 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:14:01.580 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:14:03.692 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:14:10.986 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 09:14:11.544 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:14:11.544 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:14:26.290 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up2.mp3, level=1
+2023-11-15 09:14:26.506 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:14:26.507 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up2.mp3
+2023-11-15 09:14:42.608 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 09:14:42.674 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:14:42.903 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making1.mp3, level=1
+2023-11-15 09:14:42.966 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:14:43.499 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:14:43.500 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:14:45.315 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:14:48.136 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:14:48.137 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making1.mp3
+2023-11-15 09:14:50.253 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:15:07.518 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up3.mp3, level=1
+2023-11-15 09:15:08.189 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 09:15:08.189 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up3.mp3
+2023-11-15 09:15:10.018 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/start_making3.mp3, level=1
+2023-11-15 09:15:10.038 | INFO     | business:gtts:101 - gtts text=Got it, I'm making your drink now!, level=1
+2023-11-15 09:15:11.640 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:15:11.641 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/start_making3.mp3
+2023-11-15 09:15:13.348 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/gtts_out.mp3
+2023-11-15 09:15:35.079 | INFO     | business:gtts:101 - gtts text=/richtech/resource/audio/voices/order_up1.mp3, level=1
+2023-11-15 09:15:35.352 | DEBUG    | playtts:generate_mp3:48 - text=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 09:15:35.353 | DEBUG    | playtts:run:93 - play_file=/richtech/resource/audio/voices/order_up1.mp3
+2023-11-15 09:37:02.866 | INFO     | business:stop_audio:73 - stop_audio

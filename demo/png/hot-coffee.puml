@@ -1,0 +1,32 @@
+@startuml
+actor       User
+participant "coffee\napi" as coffee
+participant "adam\napi" as adam
+participant "audio\napi" as audio
+database    db
+participant "Adam\nRobot" as robot #99FF99
+participant "Coffee\nMachine" as cof #99FF99
+User -> coffee : /make
+
+coffee -> db : create new record to drink table
+User <-- coffee : create task success
+coffee -> adam : /adam/take_cup
+adam -> robot: goto hot cup position and take it
+coffee -> adam : /adam/take_ingredients
+adam -> robot: goto hot ingredients position
+adam -> robot: control adam gpio and wait sometime
+coffee -> adam : /adam/take_hot_coffee
+adam -> robot: goto hot coffee position
+coffee -> cof: make hot coffee
+coffee -> db: change task status is starting
+coffee <- cof: check coffee status == processing
+coffee -> db: change task status is processing
+coffee <- cof: check coffee status == idle
+coffee -> db: change task status is completed
+
+coffee -> adam: /adam/put_cup
+adam -> robot: left arm goto middle position put cup
+adam -> robot: right arm goto middle position take cup
+adam -> robot: right arm put cup
+coffee -> audio: tts: hot coffee is completed
+@enduml

@@ -1,0 +1,312 @@
+# if indoor: use glass cup; if outdoor: use disposable cup
+cup_env: outdoor
+
+adam:
+  ip:
+    left: 192.168.0.212
+    right: 192.168.0.213
+  default_speed:
+    arm: 400
+    gripper: 15000
+  gripper:
+    open: 850
+
+dance:
+  count: 3
+
+sound:
+  AUDIODEV: 0,0
+
+middle:
+  speed: 0.5
+  pose:
+    x: 390
+    y: 0
+    z: 80
+
+ice_maker:
+  delay: 0.5
+  speed: 0.5
+  pose:
+    x: 500
+    y: 950
+    z: 230
+    roll: 0
+
+shaker:
+  gripper: 200
+  high: 210
+  clamp: 0
+  capacity: 230
+  collision_sensitivity: 2
+  pose:
+    # the place where take shaker
+    take:
+      # x: 590
+      # y: 630
+      x: 750
+      y: 240
+      z: 120
+    # the place where clean shaker
+    clean:
+      x: 400
+      y: 450
+      z: 150
+
+put:
+  device: 0
+  speed: 0.5
+  pose:
+    x: 700
+    y: -240
+    z: 0
+
+gpio:
+  gas:
+    start:
+      x: 650
+      y: 200
+      z: 275
+    spacing: -80
+    difference: 135
+    outlet:
+      - name: Cola
+        speed: 50
+        # one cup of cola should have {capacity} ml
+        capacity: 100
+        # one bottom of cola should have {one_bottom} ml
+        one_bottom: 5000
+      - name: Sprite
+        speed: 50
+        capacity: 100
+        one_bottom: 5000
+      - name: Fanta
+        speed: 50
+        capacity: 100
+        one_bottom: 5000
+      - name: soda water
+        speed: 50
+        capacity: 100
+        one_bottom: 5000
+      - name: beer
+        speed: 50
+        capacity: 300
+        one_bottom: 5000
+      - name: haha
+        speed: 50
+        capacity: 100
+        one_bottom: 5000
+  no_gas:
+    start:
+      x: 590
+      y: 405
+      z: 150
+    outlet:
+      ingredient_wine:
+        - name: orange liqueur
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: Angostura bitters
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: dry vermouth
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: dark rum
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: orange curaçao
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: sweet vermouth
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: Aperol
+          gpio: left,0
+          speed: 10
+          one_bottom: 500
+        - name: Amaro Nonino
+          gpio: left,1
+          speed: 10
+          one_bottom: 500
+      base_wine:
+        - name: blanco tequila
+          gpio: left,3
+          speed: 10
+          one_bottom: 500
+        - name: white rum
+          gpio: left,3
+          speed: 10
+          one_bottom: 500
+        - name: Gin
+          gpio: left,3
+          speed: 10
+          one_bottom: 500
+        - name: lemon vodka
+          gpio: left,3
+          one_bottom: 500
+          speed: 10
+        - name: whiskey
+          gpio: left,3
+          speed: 10
+          one_bottom: 500
+        - name: Bourbon
+          gpio: left,3
+          speed: 10
+          one_bottom: 500
+      red_wine:
+        - name: red-wine
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+        - name: red-wine1
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+        - name: red-wine2
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+        - name: red-wine3
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+        - name: red-wine4
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+        - name: red-wine5
+          gpio: left,6
+          speed: 10
+          capacity: 100
+          one_bottom: 500
+      ingredients:
+        - name: lime juice
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: agave syrup
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: sugar
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: aromatic bitters
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: mint juice
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: tonic water
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: cranberry juice
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: water
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: Orgeat
+          gpio: left,9
+          speed: 10
+          one_bottom: 500
+        - name: Lemon Juice
+          gpio: left,2
+          speed: 10
+          one_bottom: 500
+get:
+  - name: default
+    gripper: 400
+    high: 115
+    clamp: 0
+    capacity: 230
+    percent: 0.83
+    weight: 0.5
+    collision_sensitivity: 0
+    pose:
+      x: -85
+      y: -1000
+      z: 115
+  - name: thick_bottom_cup
+    gripper: 0
+    high: 86.5
+    clamp: 0
+    capacity: 230
+    weight: 0.5
+    percent: 0.5
+    collision_sensitivity: 2
+    pose:
+      x: -450
+      y: -850
+      z: 43.3
+      roll: 90
+  - name: triangle_angle_cup
+    gripper: 0
+    high: 162
+    clamp: 0
+    capacity: 230
+    weight: 0.5
+    percent: 0.37
+    collision_sensitivity: 2
+    pose:
+      x: -300
+      y: -1000
+      z: 60
+      roll: 90
+  - name: gas_water_cup
+    gripper: 0
+    high: 183
+    clamp: 0
+    capacity: 230
+    weight: 0.5
+    percent: 0.847
+    collision_sensitivity: 2
+    pose:
+      x: 0
+      y: -1000
+      z: 25
+      roll: 90
+  - name: right_angle_cup
+    gripper: 0
+    high: 200
+    clamp: 0
+    capacity: 230
+    weight: 0.5
+    percent: 0.5
+    collision_sensitivity: 2
+    pose:
+      x: 150
+      y: -1000
+      z: 100
+      roll: 90
+  - name: red_wine_cup
+    gripper: 0
+    high: 213
+    clamp: 0
+    capacity: 230
+    percent: 0.31
+    collision_sensitivity: 2
+    weight: 0.5
+    pose:
+      x: -150
+      y: -1000
+      z: 71.3
+      roll: 90

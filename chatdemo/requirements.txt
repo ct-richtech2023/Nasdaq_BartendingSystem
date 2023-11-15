@@ -1,0 +1,13 @@
+pydub~=0.25.1
+pvporcupine~=2.2.0
+pvrecorder~=1.0.2
+PyAudio~=0.2.11
+numpy~=1.22.3
+scipy~=1.8.1
+google-cloud-dialogflow
+google-cloud-texttospeech
+google-cloud-speech
+openai~=0.27.3
+argparse~=1.4.0
+six~=1.14.0
+requests~=2.22.0

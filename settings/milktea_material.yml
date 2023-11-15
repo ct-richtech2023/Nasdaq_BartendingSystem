@@ -1,0 +1,177 @@
+milktea:
+  - name: Brown Sugar Boba Tea # 饮品名称
+    ice_cube: 1 # 是否需要冰块
+    ice_cube_cup: 1 # 冰块是否倒入杯中
+    size:
+      - cup: Medium Cup #  大杯/小杯
+        composition:
+          - Milk Tea,300
+          - Brown Sugar,10
+          - Crystal Sugar Syrup,8
+          - Brown Sugar Boba,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Milk Tea,60
+          - Brown Sugar,40
+          - Crystal Sugar Syrup,15
+          - Brown Sugar Boba,1 # 1勺
+  - name: Red Bean Dragon Ball Tea
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Milk Tea,300
+          - Brown Sugar,30
+          - Crystal Sugar Syrup,8
+          - Red Bean Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Milk Tea,90
+          - Brown Sugar,40
+          - Crystal Sugar Syrup,15
+          - Red Bean Dragon Balls,1 # 1勺
+  - name: Oat Dragon Ball Tea
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Milk Tea,300
+          - Brown Sugar,30
+          - Crystal Sugar Syrup,8
+          - Oat Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Milk Tea,90
+          - Brown Sugar,40
+          - Crystal Sugar Syrup,15
+          - Oat Dragon Balls,1 # 1勺
+  - name: Yogurt Popping Pearl Tea
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Milk Tea,300
+          - Brown Sugar,30
+          - Crystal Sugar Syrup,8
+          - Yogurt Popping Pearls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Milk Tea,90
+          - Brown Sugar,40
+          - Crystal Sugar Syrup,15
+          - Yogurt Popping Pearls,1 # 1勺
+  - name: Brown Sugar Boba Milk
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Fresh Dairy,300
+          - Crystal Sugar Syrup,5
+          - Brown Sugar Boba,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Fresh Dairy,130
+          - Crystal Sugar Syrup,10
+          - Brown Sugar Boba,1 # 1勺
+  - name: Brown Sugar with Red Bean Dragon Balls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Fresh Dairy,250
+          - Crystal Sugar Syrup,5
+          - Red Bean Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Fresh Dairy,400
+          - Crystal Sugar Syrup,10
+          - Red Bean Dragon Balls,1 # 1勺
+  - name: Brown Sugar with Oat Dragon Balls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Fresh Dairy,250
+          - Crystal Sugar Syrup,5
+          - Oat Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Fresh Dairy,400
+          - Crystal Sugar Syrup,10
+          - Oat Dragon Balls,1 # 1勺
+  - name: Brown Sugar with Yogurt Popping Pearls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Fresh Dairy,250
+          - Crystal Sugar Syrup,8
+          - Yogurt Popping Pearls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Fresh Dairy,400
+          - Crystal Sugar Syrup,10
+          - Yogurt Popping Pearls,1 # 1勺
+  - name: Brown Sugar Boba Cold Coffee
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Cold Coffee,300
+          - Crystal Sugar Syrup,5
+          - Brown Sugar Boba,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Cold Coffee,130
+          - Crystal Sugar Syrup,10
+          - Brown Sugar Boba,1 # 1勺
+  - name: Cold Coffee with Red Bean Dragon Balls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Cold Coffee,250
+          - Crystal Sugar Syrup,5
+          - Red Bean Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Cold Coffee,400
+          - Crystal Sugar Syrup,10
+          - Red Bean Dragon Balls,1 # 1勺
+  - name: Cold Coffee with Oat Dragon Balls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Cold Coffee,250
+          - Crystal Sugar Syrup,5
+          - Oat Dragon Balls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Cold Coffee,400
+          - Crystal Sugar Syrup,10
+          - Oat Dragon Balls,1 # 1勺
+  - name: Cold Coffee with Yogurt Popping Pearls
+    ice_cube: 1
+    ice_cube_cup: 1
+    size:
+      - cup: Medium Cup
+        composition:
+          - Cold Coffee,250
+          - Crystal Sugar Syrup,8
+          - Yogurt Popping Pearls,1 # 1勺
+      - cup: Large Cup
+        composition:
+          - Cold Coffee,400
+          - Crystal Sugar Syrup,10
+          - Yogurt Popping Pearls,1 # 1勺

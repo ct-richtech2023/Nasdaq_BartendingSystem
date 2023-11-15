@@ -1,0 +1,16 @@
+FROM m986883511/ubuntu:python3
+MAINTAINER author "https://www.richtechrobotics.com/"
+WORKDIR /richtech
+EXPOSE 9000
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt install ffmpeg alsa-base alsa-utils libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev usbutils -y --fix-missing
+
+RUN wget -c -t 3 https://gitee.com/supernatural-fork/xArm-Python-SDK/attach_files/943902/download/xArm-Python-SDK-release-1.8.4.tar.gz && \
+    tar -zxvf xArm-Python-SDK-release-1.8.4.tar.gz && \
+    cd xArm-Python-SDK-release-1.8.4 && \
+    python3 setup.py install
+
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple/

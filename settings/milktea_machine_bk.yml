@@ -1,0 +1,177 @@
+# if indoor: use glass cup; if outdoor: use disposable cup
+# 旧动作
+cup_env: indoor
+
+adam:
+  sn: abcde
+  ip:
+    left: 192.168.2.226
+    right: 192.168.2.240
+  default_speed:
+    arm: 400
+    gripper: 15000
+  gripper:
+    open: 850
+  arduino: 
+    no1: '/dev/ttyACM0'
+    no2: '/dev/ttyACM1'
+
+center:
+  printer: '/dev/usb/lp0'
+  time_offset: -7
+  scanner: '/dev/hidraw0'
+
+
+dance:
+  count: 2
+
+sound:
+  AUDIODEV: 1,0
+
+middle:
+  speed: 0.5
+  pose:
+    x: 390
+    y: 0
+    z: 80
+
+ice_maker:
+  pose:
+    x: 320
+    y: -1000
+    z: 270
+    pitch: 75
+    roll: 75
+
+seal_machine:
+  pose:
+    x: 750
+    y: 890
+    z: 395
+    roll: -15
+
+shaker:
+  gripper: 200
+  high: 300
+  clamp: 0
+  capacity: 1800
+  collision_sensitivity: 2
+  pose:
+    # the place where take shaker
+    take:
+      x: 450
+      y: -670
+      z: 150
+    # the place where clean shaker
+    clean:
+      x: 640
+      y: -415
+      z: 180
+    # place where shaker blends  
+    blend:
+      x: 450
+      y: -214
+      z: 200
+
+put: # the place where put cup
+  device: 0
+  speed: 0.5
+  pose:
+    x: 460 #700
+    y: 660
+    z: 0
+
+gpio:
+  tap_l: # 大龙头液体配置
+    start: # 起始位置，最接近制冰机的位置
+      x: 695
+      y: -350
+      z: 210
+      pitch: 90
+    spacing: 105 # 大龙头左右间距
+    difference: 50 # 大龙头前后间距
+  tap_m:  # 小龙头液体配置
+    start: # 位置
+      x: 650
+      y: -10
+      z: 200
+
+ingredient: # 固体波霸配置
+  depth: 120 # 锅深度
+  offset: 60 #  夹爪中心和夹爪根部的距离
+  difference: 75  # 长勺短勺夹取位置差距
+  put: # 挖波霸时杯子放的位置
+    x: 323
+    y: 727
+    z: 0
+  scoop:
+    - num: 0  # 第0号锅，最靠近亚当的锅
+      pose: # 夹取勺子的位置
+        x: 440
+        y: 305
+        z: 45
+    - num: 1  # 第1号锅，另一个短勺锅
+      pose:
+        x: 440
+        y: 510
+        z: 45
+    - num: 2 # 第2号锅，0号前面的锅
+      pose:
+        x: 690
+        y: 320
+        z: 100
+    - num: 3 # 第3号锅，另一个长勺锅
+      pose:
+        x: 680
+        y: 398
+        z: 100
+
+get: # 取杯子的位置配置
+  - name: Large Cup # 杯子名称
+    gripper: 380 # 杯口位置夹爪张开大小
+    high: 175 #  杯子高度
+    clamp: 110
+    capacity: 230 # 杯子容量
+    percent: 0.3  # 夹取杯子的比例（从杯底往上）
+    weight: 0.5
+    collision_sensitivity: 0
+    pose: #  杯子位置
+      x: 0
+      y: 1000
+      z: 70
+      roll: -20
+    middle_angles: # 没用到
+      j1: 209.38
+      j2: -22.65
+      j3: -39.05
+      j4: -90.29
+      j5: 89.46
+      j6: 28.30
+  - name: Medium Cup
+    gripper: 220
+    high: 150
+    clamp: 50
+    capacity: 230
+    weight: 0.5
+    percent: 0.37
+    collision_sensitivity: 0
+    pose:
+      x: -145
+      y: 465
+      z: 150
+      roll: 20
+    middle_angles:
+      j1: 247.22
+      j2: 3.28
+      j3: -84.45
+      j4: 0
+      j5: 81.17
+      j6: 217.22
+
+task_option:
+  ice_type:
+    no_ice: 0  # 不要冰比例系数
+    light: 1  # 少冰比例系数
+    more: 1.5  # 多冰比例系数
+  sweetness_type:
+    extra: 1.2  # 多糖比例系数
